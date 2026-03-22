@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+/* navbar */
+
+.navbar-hero {
+    position: relative;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    padding: 20px 60px;
+    margin: 0px 0px - 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+}
+
+.logo img{
+    width: clamp(80px, 10vw, 150px);
+    height: auto;
+}
+
+.nav-right {
+    display: flex;
+    gap: 5px;
+}
+
+.nav-right select{
+    color: white;
+    background-color: transparent;
+    border: 0.2px solid rgb(146, 146, 146);
+    border-radius: 2px;
+}
+
+.nav-right button {
+    background-color: red;
+    border-radius: 3px;
+    border: none;
+}
+
+@media (max-width:768px){
+
+  .navbar{
+    padding:15px 25px;
+  }
+
+}
+
+/* hero section */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/netflix_backround_image.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    z-index: 0;
+}
+
+.hero .over-lay {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.9),
+    rgba(0,0,0,0.6),
+    rgba(0,0,0,0.3),
+    rgba(0,0,0,0.6),
+    rgba(0,0,0,0.9)
+);
+}
+
+.hero .hero-content {
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+}
+
+.content-one {
+    text-align: center;
+    max-width: 400px;
+    height: auto;
+}
+
+.content-one h1 {
+    font-size: clamp(3.5rem);
+    font-weight: 900;
+    margin: 0px 0px 16px;
+}
+
+.content-one p {
+    font-size: clamp(1.25rem);
+    font-weight: 500;
+    margin: 0px 0px 32px;
+}
+
+.hero-content h3 {
+    font-size: 10px;
+    max-width: 400px;
+    text-align: center;
+
+}
+
+
+.content-sign-in {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    padding: 16px 0px 0px;
+}
+
+.content-sign-in input {
+    flex: 1;
+    background: transparent;
+    color: #ffffff;
+    padding: 10px 16px ;
+    border-radius: 2px;
+    border: 0.5px solid rgb(128, 127, 127);
+}
+
+.content-sign-in button {
+    padding: 0px 25px;
+    background-color: red;
+    border-radius: 2px;
+    border: none;
+}
+
+.curve {
+    position: absolute;
+    z-index: 4;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(
+    to bottom,
+    rgba(13, 13, 59, 0.6) 0%,
+    rgba(31, 31, 152, 0.2) 20%,
+    black 60%
+);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top: 3px solid rgb(233, 36, 72);
+}
+
+/* trending section */
+
+.trending {
+    padding: 0px 100px;
+    background-color: black;
+}
+
+.trending h4 {
+    margin-bottom: 20px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    margin-bottom: 40px;
+}
+
+.cards-container::-webkit-scrollbar{
+    display: none;
+}
+
+.card {
+    position: relative;
+    width: 120px;
+    height: 180px;
+    flex-shrink: 0;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.number {
+    position: absolute;
+    bottom: -10px;
+    left: -20px;
+    font-size: 80px;
+    font-weight: bold;
+    color: black;
+    -webkit-text-stroke: 2px white;
+}
