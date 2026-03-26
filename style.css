@@ -46,6 +46,10 @@
     background-color: red;
     border-radius: 3px;
     border: none;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;
+
 }
 
 @media (max-width:768px){
@@ -137,6 +141,8 @@
     background-color: red;
     border-radius: 2px;
     border: none;
+    font-size: medium;
+    font-weight: bold;
 }
 
 .curve {
@@ -159,7 +165,7 @@
 /* trending section */
 
 .trending {
-    padding: 0px 100px;
+    padding: 0px 100px 96px;
     background-color: black;
 }
 
@@ -201,4 +207,155 @@
     font-weight: bold;
     color: black;
     -webkit-text-stroke: 2px white;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 130px;
+        height: 200px;
+    }
+
+    .number {
+        font-size: 70px;
+    }
+}
+
+/* more reason */
+.more-reason h4 {
+    margin-bottom: 15px;
+}
+
+.box-container {
+    display: flex;
+    gap: 10px;
+}
+
+.more-reason .box {
+    height: 180px;
+    width: 200px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(17, 17, 43), rgb(24, 24, 39), rgb(39, 21, 21));
+    padding: 20px 10px;
+    position: relative;
+}
+
+.box p {
+    font-weight: lighter;
+    font-size: 10px;
+    color: rgb(189, 189, 189);
+}
+
+
+
+.icon {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+/* Frequently Asked Questions */
+.question h4 {
+    padding-top: 30px;
+}
+
+.faq {
+    max-width: 900px;
+    margin: auto;
+}
+
+.faq-item {
+    background: #2d2d2d;
+    margin: 5px;
+}
+
+.faq-question {
+    position: relative;
+    padding: 20px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 44px;
+    font-weight: lighter;
+}
+
+
+.foot-login h4{
+    font-size: 11px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.foot-email {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 64px;
+}
+
+.foot-email input {
+    padding: 10px;
+    width: 350px;
+    background: transparent;
+    border: 1px solid rgb(114, 114, 114);
+    border-radius: 3px;
+}
+
+.foot-email button {
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    width: 150px;
+    font-size: large;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 10px;
+    color: #ffffffb3;
+}
+
+
+footer span,a {
+    color: #ffffffb3;
+}
+
+footer ul {
+    margin-top: 30px;
+}
+
+footer li {
+    display: inline-block;
+    width: 200px;
+    padding-bottom: 10px;
+}
+
+footer select {
+    background: transparent;
+    margin-top: 25px;
+    border-radius: 2px;
+    border: 1px solid #ffffffb3;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+footer #one {
+    margin-top: 30px;
+    color: #ffffffb3;
+}
+
+footer #two {
+    margin-top: 30px;
+    color: #ffffff80;
+    font-size: 9px;
+}
+
+footer #two a {
+    color: blue;
 }
