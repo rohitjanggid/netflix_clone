@@ -5,8 +5,6 @@ This project focuses on mastering layout design, responsiveness, and UI replicat
 
 ---
 
----
-
 ## 📌 Features
 
 * Responsive Navbar with overlay
@@ -42,18 +40,19 @@ project/
 
 ### Hero Section
 
-(./images/Screenshot-1.png)
+<img src="./images/Screenshot-1.png" width="45%" />
+
 ### Trending Section
 
-(./images/Screenshot-2.png)
+<img src="./images/Screenshot-2.png" width="45%" />
 
 ### FAQ Section
 
-(./images/Screenshot-3.png)
+<img src="./images/Screenshot-3.png" width="45%" />
 
 ### Footer Section
 
-(./images/Screenshot-4.png)
+<img src="./images/Screenshot-4.png" width="45%" />
 
 ---
 
