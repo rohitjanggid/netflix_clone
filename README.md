@@ -42,19 +42,18 @@ project/
 
 ### Hero Section
 
-![Project Preview]./images/Screenshot-1.png
-
+(./images/Screenshot-1.png)
 ### Trending Section
 
-![Project Preview]./images/Screenshot-2.png
+(./images/Screenshot-2.png)
 
 ### FAQ Section
 
-![Project Preview]./images/Screenshot-3.png
+(./images/Screenshot-3.png)
 
 ### Footer Section
 
-![Project Preview]./images/Screenshot-4.png
+(./images/Screenshot-4.png)
 
 ---
 
